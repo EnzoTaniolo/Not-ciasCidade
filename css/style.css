@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font: 1em "trebuchet MS" , helvetica , sans-serif ;
+    background: rgb(235, 233, 233);
+}
+
+/*Formatacoes cabecalho inicio*/
+
+#fundocabecalho{
+ background: url(../imagens/fundo.png);
+ height: 230px;
+}
+
+#brasil{
+    background: url(../imagens/detalhe-topo.png) no-repeat right;
+    height: 200px;
+    margin-right: 400px ;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(163, 4, 4);
+    float: left;
+
+}
+
+ul li{
+    float: left;
+    padding: 10px 0px;
+    margin: 0;
+}
+
+
+
+
+
+
+
+#menu{
+    text-align: center;
+}
+
+
+ ul a{
+   padding: 10px ;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    
+
+}
+
+a:hover{
+    background: rgb(131, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Formatacoes cabecalho fim*/
