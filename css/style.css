@@ -83,6 +83,12 @@ body.fotos #navegacao a#fotos
     margin-top: 60px;
 }
 
+#lateral{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
 #primario{
     width: 270px;
     background: blue;
@@ -90,6 +96,16 @@ body.fotos #navegacao a#fotos
     margin: 0 0 20px 195px;
 }
 
+/*configuracao layout 2 e 1 colunas*/
+#duas-colunas #primario{
+    width: 555px;
+}
+
+#uma-colunas #primario{
+    width: 555px;
+    margin: 0 0 20px 0;
+}
+/*configuracao layout 2 e 1 colunas*/
 #secundario{
     width: 270px;
     background: green;
@@ -97,14 +113,54 @@ body.fotos #navegacao a#fotos
     margin: 0 0 20px 15px;
 }
 
-#lateral{
-    width: 180px;
-    background: yellow;
-    float: left;
-    margin: 0 0 20px -750px;
+/*configuração layout 3 colunas*/
+
+/*caixa*/
+.caixa{
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
+    margin: 10px 0;
+    padding: 5px;
 }
 
-/*configuração layout 3 colunas*/
+h2{
+    font-size: 1.1em;
+    background:#294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+.caixa-conteudo{
+    background: #fff;
+    margin-top: 5px;
+    padding: 5px;
+
+}
+/*caixa*/
+/*formatar menu lateral*/
+
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+    color: #a1a1a1;
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat center left;
+    padding-left: 20px;
+
+}
+
+
+
+
+
+
+/*formatar menu lateral*/
 /*rodape*/
 
 #crodape{
