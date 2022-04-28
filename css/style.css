@@ -91,7 +91,6 @@ body.fotos #navegacao a#fotos
 
 #primario{
     width: 270px;
-    background: blue;
     float: left;
     margin: 0 0 20px 195px;
 }
@@ -108,7 +107,6 @@ body.fotos #navegacao a#fotos
 /*configuracao layout 2 e 1 colunas*/
 #secundario{
     width: 270px;
-    background: green;
     float: left;
     margin: 0 0 20px 15px;
 }
@@ -155,12 +153,95 @@ h2{
 
 }
 
+label{
+    display:block;
+    cursor: pointer
+}
 
+input{
+    font-size: 0.9em;
+    background-color: #fff;
+    padding: 5px;
+    width: 125px;
+}
 
-
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    padding: 5px;
+}
 
 
 /*formatar menu lateral*/
+
+/*formatando imagens*/
+
+img.imagemprincipal{
+    border: 3px solid #dfdfdf;
+    width: 98%;
+}
+
+/*formatando imagens*/
+
+/*formatando destaque*/
+
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3{
+    background: #b10333;
+    color: #fff;
+}
+
+.entrevista h3{
+    background: #de003e;
+    color: black;
+}
+
+/*formatando destaque*/
+
+/*formatando lista de noticias*/
+
+#lista-noticias li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 62px;
+}
+
+#lista-noticias li a img{
+    float: left;
+    margin: 5px;
+}
+#lista-noticias li a{
+    text-decoration: none;
+}
+
+#lista-noticias li a p {
+    font-size: 0.7em;
+}
+
+#lista-noticias li a h3 {
+    font-size: 0.8em;
+    padding: 0;
+    color: #3e7ab9;
+}
+
+#lista-noticias li:hover{
+    background:#eee ;
+    cursor: pointer;
+}
+
+
+
+
+/*formatando lista de noticias*/
+
 /*rodape*/
 
 #crodape{
